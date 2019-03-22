@@ -9,7 +9,9 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build-css": "node-sass  -w ./src/scss/main.scss -o ./src/css/",
+    "watch-css": "nodemon -e ./src/scss/main.scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "MIT",
@@ -50,9 +52,12 @@
     "whatwg-fetch": "^2.0.0"
   },
   "devDependencies": {
+    "bulma": "^0.7.4",
     "gulp-inject": "^5.0.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
     "svg-sprite-loader": "^3.0.0"
   }
 }

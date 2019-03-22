@@ -1,0 +1,38 @@
+/* Utilities */
+@import "webfonts.scss";
+@import "variable-overrides";
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/functions.sass";
+@import "derived-overrides";
+@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
+
+@import "../../node_modules/bulma/sass/utilities/animations.sass";
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+@import "../../node_modules/bulma/sass/utilities/controls.sass";
+@import "../../node_modules/bulma/sass/base/_all";
+@import "../../node_modules/bulma/sass/elements/_all";
+@import "../../node_modules/bulma/sass/components/_all";
+@import "../../node_modules/bulma/sass/grid/_all";
+@import "../../node_modules/bulma/sass/layout/_all";
+
+ 
+
+.navbar-brand{
+    min-height: 5rem;
+}
+
+
+.navbar-item img{
+    max-height:50px;
+}
+
+.navbar-item.right{
+    margin-left: auto;
+}
+
+
+
+.navbar-burger{
+    margin: auto 0;
+    position: nonw;
+}
