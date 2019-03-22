@@ -5,17 +5,42 @@
 @import "../../node_modules/bulma/sass/utilities/functions.sass";
 @import "derived-overrides";
 @import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
-
 @import "../../node_modules/bulma/sass/utilities/animations.sass";
 @import "../../node_modules/bulma/sass/utilities/mixins.sass";
 @import "../../node_modules/bulma/sass/utilities/controls.sass";
+
 @import "../../node_modules/bulma/sass/base/_all";
 @import "../../node_modules/bulma/sass/elements/_all";
 @import "../../node_modules/bulma/sass/components/_all";
 @import "../../node_modules/bulma/sass/grid/_all";
 @import "../../node_modules/bulma/sass/layout/_all";
 
- 
+@import "../css/hugo-easy-gallery.css";
+
+body{
+    border: 10px solid $lightning;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    background: $pampus;
+}
+
+@media (min-width: $tablet){
+    body {
+        border: 10px solid $lightning;
+    }
+}
+
+.subtitle{
+    color: $mud;
+}
+
+.home-header{
+    padding: 40px 0 20px;
+}
 
 .navbar-brand{
     min-height: 5rem;
@@ -31,8 +56,85 @@
 }
 
 
-
 .navbar-burger{
     margin: auto 0;
     position: nonw;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.home-subtitle{
+    margin-bottom:10px!important;
+}
+
+.large-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.title.is-1 {
+    font-family: "Noka-Black";
+}
+
+.headline-cta{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: $tablet){
+    .headline-cta h1{
+        font-size: 60px !important;
+    }
+}
+
+@media (min-width: $desktop){
+    .headline-cta h1{
+        font-size: 70px !important;
+    }
+}
+
+.headline-cta p{
+    color: $mud;
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.headline-cta .button{
+    width: 100%;
+}
+
+.center-title{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.title-stroke:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 3px solid $lightning;
+    
+}
+
+.brochure{
+    border: 4px solid $white;
+    box-shadow: 6px 6px $mud;
+}
+
+.brochure:hover{
+    filter: opacity(90%);
+}
+
+.brochure:active{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: -2px;
+    margin-bottom: -2px;
+    box-shadow: 4px 4px $mud;
 }

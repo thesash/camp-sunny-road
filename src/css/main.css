@@ -1,25 +1,24 @@
 /* Utilities */
 @import url("//hello.myfonts.net/count/38fda7");
+@import url(../css/hugo-easy-gallery.css);
 @font-face {
-  font-family: 'Noka';
-  font-weight: bold;
-  font-style: normal;
-  src: url("../../site/static/webfonts/38FDA7_0_0.eot");
-  src: url("../../site/static/webfonts/38FDA7_0_0.eot?#iefix") format("embedded-opentype"), url("../../site/static/webfonts/38FDA7_0_0.woff2") format("woff2"), url("../../site/static/webfonts/38FDA7_0_0.woff") format("woff"), url("../../site/static/webfonts/38FDA7_0_0.ttf") format("truetype"); }
+  font-family: 'Noka Black';
+  src: url("/webfonts/38FDA7_0_0.eot");
+  src: url("/webfonts/38FDA7_0_0.eot?#iefix") format("embedded-opentype"), url("/webfonts/38FDA7_0_0.woff2") format("woff2"), url("/webfonts/38FDA7_0_0.woff") format("woff"), url("/webfonts/38FDA7_0_0.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Noka';
   font-weight: normal;
   font-style: normal;
-  src: url("../../site/static/webfonts/38FDA7_1_0.eot");
-  src: url("../../site/static/webfonts/38FDA7_1_0.eot?#iefix") format("embedded-opentype"), url("../../site/static/webfonts/38FDA7_1_0.woff2") format("woff2"), url("../../site/static/webfonts/38FDA7_1_0.woff") format("woff"), url("../../site/static/webfonts/38FDA7_1_0.ttf") format("truetype"); }
+  src: url("/webfonts/38FDA7_1_0.eot");
+  src: url("/webfonts/38FDA7_1_0.eot?#iefix") format("embedded-opentype"), url("/webfonts/38FDA7_1_0.woff2") format("woff2"), url("/webfonts/38FDA7_1_0.woff") format("woff"), url("/webfonts/38FDA7_1_0.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Noka';
-  font-weight: semi-bold;
+  font-weight: bold;
   font-style: normal;
-  src: url("../../site/static/webfonts/38FDA7_2_0.eot");
-  src: url("../../site/static/webfonts/38FDA7_2_0.eot?#iefix") format("embedded-opentype"), url("../../site/static/webfonts/38FDA7_2_0.woff2") format("woff2"), url("../../site/static/webfonts/38FDA7_2_0.woff") format("woff"), url("../../site/static/webfonts/38FDA7_2_0.ttf") format("truetype"); }
+  src: url("/webfonts/38FDA7_2_0.eot");
+  src: url("/webfonts/38FDA7_2_0.eot?#iefix") format("embedded-opentype"), url("/webfonts/38FDA7_2_0.woff2") format("woff2"), url("/webfonts/38FDA7_2_0.woff") format("woff"), url("/webfonts/38FDA7_2_0.ttf") format("truetype"); }
 
 @keyframes spinAround {
   from {
@@ -6948,6 +6947,26 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+body {
+  border: 10px solid #fdba12;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background: #f3f1ed; }
+
+@media (min-width: 769px) {
+  body {
+    border: 10px solid #fdba12; } }
+
+.subtitle {
+  color: #584106; }
+
+.home-header {
+  padding: 40px 0 20px; }
+
 .navbar-brand {
   min-height: 5rem; }
 
@@ -6960,3 +6979,64 @@ label.panel-block {
 .navbar-burger {
   margin: auto 0;
   position: nonw; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.home-subtitle {
+  margin-bottom: 10px !important; }
+
+.large-text {
+  font-size: 18px;
+  margin-bottom: 20px; }
+
+.title.is-1 {
+  font-family: "Noka-Black"; }
+
+.headline-cta {
+  margin-top: 5px;
+  margin-bottom: 25px; }
+
+@media (min-width: 769px) {
+  .headline-cta h1 {
+    font-size: 60px !important; } }
+
+@media (min-width: 1088px) {
+  .headline-cta h1 {
+    font-size: 70px !important; } }
+
+.headline-cta p {
+  color: #584106;
+  margin-top: 20px;
+  max-width: 300px; }
+
+.headline-cta .button {
+  width: 100%; }
+
+.center-title {
+  text-align: center;
+  margin-top: 20px;
+  display: block; }
+
+.title-stroke:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 3px solid #fdba12; }
+
+.brochure {
+  border: 4px solid white;
+  box-shadow: 6px 6px #584106; }
+
+.brochure:hover {
+  filter: opacity(90%); }
+
+.brochure:active {
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  box-shadow: 4px 4px #584106; }

@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-  {{ partial "head" . }}
+  {{block "head" .}}{{ partial "head" . }}{{ end }}
   <body class="sans-serif">
-    {{ partial "nav" . }}
+    {{block "nav" .}}{{ partial "nav" . }}{{ end }}
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }} 
   </body>

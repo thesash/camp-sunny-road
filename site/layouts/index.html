@@ -1,6 +1,9 @@
+{{define "nav" }}{{partial "header-home"}}{{ end }}
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
+
+{{partial "brochure.html" (dict "imageUrl" .Params.image)}}
 
 {{ partial "short-text" .Params.blurb}}
 
