@@ -7027,14 +7027,14 @@ body {
   left: 45%;
   border-bottom: 3px solid #fdba12; }
 
-.brochure {
+.slides {
   border: 4px solid white;
   box-shadow: 6px 6px #584106; }
 
-.brochure:hover {
+.slides:hover {
   filter: opacity(90%); }
 
-.brochure:active {
+.slides:active {
   margin-top: 2px;
   margin-left: 2px;
   margin-right: -2px;

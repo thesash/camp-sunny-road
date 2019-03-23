@@ -122,16 +122,16 @@ body{
     
 }
 
-.brochure{
+.slides{
     border: 4px solid $white;
     box-shadow: 6px 6px $mud;
 }
 
-.brochure:hover{
+.slides:hover{
     filter: opacity(90%);
 }
 
-.brochure:active{
+.slides:active{
     margin-top: 2px;
     margin-left: 2px;
     margin-right: -2px;

@@ -1,5 +1,0 @@
-{
-    "title" : "{{ .Title }}",
-    "large" : "{{ .Params.large }}",
-    "small" : "{{ .Params.small}}"
-}

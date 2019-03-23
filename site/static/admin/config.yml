@@ -2,10 +2,18 @@ backend:
   name: git-gateway
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
-public_folder: "webfonts"
+public_folder: "img",
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "slide"
+    label: "Slide"
+    folder: "site/content/slide"
+    create: "true"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "original", name: "Original Image", widget: "image"}
+      - { label: "medium", name: "Medium Image", widget: "image"}
+  
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
@@ -81,6 +89,3 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-outputFormts:
-  sunnyJson:
-    mediaType: application/json

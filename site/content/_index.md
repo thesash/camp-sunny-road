@@ -6,11 +6,15 @@ subtitle: "Lake Hughes, California"
 button: "Tickets"
 url: "/tickets"
 text: "4 day all-inclusive passes include lodging, dining, open bars, and more."
-image: img/brochure/map.jpg
-partners:
-    - image: img/partners/gts.png
-    - image: img/partners/red-bull.png
-intro:
+image: /img/brochure/map.jpg
+slides:
+    - title: "cover"
+      original: /img/brochure/cover.jpg
+      medium: /img/brochure/cover@0.5x.jpg
+    - title: "weekend-plans"
+      original: /img/brochure/weekend-plans.jpg
+      medium: /img/brochure/weekend-plans@0.5x.jpg
+blurb:
     heading: "Our Story"
     text: "Camp Sunny Road was born in 2016 when a group of friends rallied around the idea of creating their own camp-style festival in Joshua Tree, California.  They played capture the flag, roasted marshmallows and taught each other beat-boxing, twerking, AI and yoga.  
 

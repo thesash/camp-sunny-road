@@ -3,11 +3,9 @@
 
 {{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
 
-{{partial "brochure.html" (dict "imageUrl" .Params.image)}}
+{{partial "slides.html" .Params}}
 
 {{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
 
 
 {{ end }}
