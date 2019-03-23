@@ -1,31 +1,21 @@
-<footer>
-
-	<div>
-
-		<div>
-
-			<img src="/img/logo.png" alt="Camp Sunny Road" >
-
+<footer class="footer">
+	<div class="columns">
+		<div class="is-10-mobile is-offset-1-mobile is-5-tablet is-offset-2-tablet is-4-desktop column">
+				<h5 class="title is-6 is-uppercase">Get Your Camp On</h5>
+				<p>Follow Camp Sunny Road on Instagram or Facebook and slide into our DMs to request the passcode. And please let us know if you have any questions.</p>
 		</div>
-
-		<div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
+		<div class="is-10-mobile is-offset-1-mobile is-2-tablet is-offset-1-tablet column">
+			<a class = "button is-white" href="https://www.instagram.com/campsunnyroad/" >
+			<span class="icon is-small">
+					<i class="fab fa-instagram"></i>
+			</span>
+			<span>@campsunnyroad</span>
+			</a>
+		
 		</div>
 	</div>
 
 </footer>
-
-{{ partial "svg" . }}
 
 <script src="/app.js"></script>
 

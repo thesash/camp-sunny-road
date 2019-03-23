@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+            <div class="is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet column hp-section">
+                <h3 class="is-6 is-uppercase title">Activites</h2>
+                <ul class="is-10 columns is-multiline is-mobile bullet-list">
+                    {{range .activities}}
+                        <li class="title is-6-mobile is-4-tablet is 3-desktop column activities-list">
+                                {{.name}}
+                        </li>
+                    {{end}}
+                </ul>
+            </div>
+            <div class="is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet column hp-section">
+                    <h3 class="is-6 is-uppercase title">Nightlife</h2>
+                    <ul class="is-10 columns is-multiline is-mobile bullet-list">
+                        {{range .nightlife}}
+                            <li class="title is-6-mobile is-4-tablet is 3-desktop column nightlife-list">
+                                    {{.name}}
+                            </li>
+                        {{end}}
+                    </ul>
+                </div>
+    </div>
+</section>

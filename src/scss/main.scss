@@ -26,6 +26,7 @@ body{
     left: 0;
     overflow: auto;
     background: $pampus;
+    color: $mud!important;
 }
 
 @media (min-width: $tablet){
@@ -125,6 +126,7 @@ body{
 .slides{
     border: 4px solid $white;
     box-shadow: 6px 6px $mud;
+    margin-bottom: 20px;
 }
 
 .slides:hover{
@@ -137,4 +139,59 @@ body{
     margin-right: -2px;
     margin-bottom: -2px;
     box-shadow: 4px 4px $mud;
+}
+
+.hp-section{
+    margin-top:20px;
+}
+
+.activities-list, .nightlife-list{
+    display:list-item;
+    font-size: 12px;
+    font-weight:bold;
+    padding: 0px 15px 0px 0px;
+    margin-bottom: 10px!important;
+    margin-left: 20px;
+    margin-right: -20px;    
+}
+
+.activities-list:before, .nightlife-list:before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+
+.activities-list:before {
+content: "\f00c";
+font-family: "Font Awesome 5 Free";
+display: inline-block;
+margin-left: -1.3em; /* same as padding-left set on li */
+width: 1.3em; /* same as padding-left set on li */
+}
+
+.activities-list:before{
+    content: "\f00c";
+}
+
+.nightlife-list:before{
+    content: "\f561";
+}
+
+.address-title{
+    margin-bottom:5px !important;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: $old-gold;
+    color: white;
+}
+
+.footer .is-6 {
+    color: white;
+    margin-top: 10px;
+}
+.button.is-white{
+    color:$mud;
 }

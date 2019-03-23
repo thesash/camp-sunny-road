@@ -3,9 +3,13 @@
 
 {{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
 
-{{partial "slides.html" .Params}}
+{{$s := .Site.GetPage "/slides" }}
+{{partial "slides.html"  $s.Params}}
 
-{{ partial "short-text" .Params.blurb}}
+{{partial "activities.html" .Params}}
 
+{{range .Params.sections}}
+    {{ partial "short-text" (dict "heading" .heading "text" .text)}}
+{{end}}
 
 {{ end }}

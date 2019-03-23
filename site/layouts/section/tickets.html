@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{$s := .Site.GetPage "/slides" }}
+    {{range $s.Params.slides}}
+        <div>{{ .original }}</div>
+    {{end}}
+{{end}}
+
