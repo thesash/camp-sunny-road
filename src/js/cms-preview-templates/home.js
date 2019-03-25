@@ -17,7 +17,7 @@ export default class PostPreview extends React.Component {
                 <div class="container">
                   <div class="navbar-brand">
                     <a class="navbar-item">
-                      <img src="/img/logo.png" alt="Logo">
+                      <img src="/img/logo.png" alt="Logo"/>
                     </a>
                     <span class="navbar-item is-hidden-desktop right">
                             <a href="/apply" class="button is-white is-inverted">
