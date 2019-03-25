@@ -14,4 +14,11 @@ partners:
 - logo: /img/partners/morning-recovery.png
 - logo: /img/partners/bare-republic.png
 - logo: /img/partners/libre-tequila.png
+- logo: /img/partners/smokies-edibles.png
+- logo: /img/partners/bon-and-viv.jpg
+- logo: /img/partners/beyond-meat.png
+- logo: /img/partners/golden-state-cider.png
+- logo: /img/partners/honey-pot.jpg
+- logo: /img/partners/kingpen.jpg
+- logo: /img/partners/morning-recovery.png
 ---

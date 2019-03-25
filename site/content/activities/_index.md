@@ -5,7 +5,6 @@ activities:
 - name: "Archery"
 - name: "Arts ‘n Crafts"
 - name: "Baseball"
-- name: "Basketball Jam Bounce House"
 - name: "Bubble Soccer"
 - name: "Capture the Flag"
 - name: "Color War"
@@ -27,6 +26,7 @@ activities:
 - name: "Pool Parties" 
 - name: "Tie-Dye"
 - name: "Trivia"
+- name: "Tenis"
 - name: "Ultimate Frisbee"
 - name: "Virtual Reality"
 - name: "Yoga"
@@ -35,4 +35,5 @@ activities:
 - name: "DJs"
 - name: "Silent Disco"
 - name: "Talent Show"
+- name: "Basketball Jam Bounce House"
 ---
