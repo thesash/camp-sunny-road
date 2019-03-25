@@ -1,38 +1,56 @@
-
-<nav class="navbar" role="navigation" aaria-label="main navigation">
-	<div class="container">
-		<div class="navbar-brand">
-			<a href="/" class="navbar-item">
-				<img src="/img/logo.png" alt="Camp Sunny Road Logo"/>
-			</a>
-			
-			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-			<span aria-hidden="true"></span>
-			<span aria-hidden="true"></span>
-			<span aria-hidden="true"></span>
-			</a>
-			<div class="navbar-item right is-hidden-desktop">
-					<a href="/tickets" class="button is-primary">
-					<strong>Tickets</strong>
-					</a>
-			</div>
-		</div>
-		<div id="navbarMain" class="navbar-menu">
-			<div class="navbar-start">
-				<a href="/" class="navbar-item">
-				Home
-				</a>
-			</div>
-			<div class="navbar-end is-hidden-touch">
-				<div class="navbar-item">
-					<p class= "control">
-						<a href="/tickets" class="button is-primary">
-						<strong>Tickets</strong>
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-</nav>
+<nav id="navTop" class="navbar is-fixed-top">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="#navTop" class="navbar-item">
+              <img src="/img/logo.png" alt="Logo"/>
+            </a>
+            <span class="navbar-item is-hidden-desktop right">
+                    <a href="/apply" class="button is-white is-inverted">
+                        Sign Up
+                    </a>
+              </span>
+              <a role="button" id="navBarBurger" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenuHeroA">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="navbar-start">
+						<a href="#passes" class="hero-nav-link navbar-item">Passes</a>
+						<a href="#partners" class="hero-nav-link navbar-item">Partners</a>
+						<a href="#activities" class="hero-nav-link navbar-item">Activities</a>
+						<a href="#our-story" class="hero-nav-link navbar-item">Our Story</a>
+						<a href="#location" class="hero-nav-link navbar-item">Location</a>
+						<a href="#contact" class="hero-nav-link navbar-item">Contact</a>
+                    </div>
+                    <div class="navbar-end">
+                    <span class="navbar-item is-hidden-mobile">
+                        <span class="buttons">
+                                <a href="/apply" class="button is-white is-inverted signup-button">
+                                    Sign Up
+                                </a>
+                        <span class="buttons has-addons">
+                                <a href="https://www.instagram.com/campsunnyroad/" class="button is-white is-inverted">
+                                    <span class="icon">
+                                      <i class="fab fa-instagram"></i>
+                                    </span>
+                                </a>
+                                <a href="https://www.facebook.com/campsunnyroad" class="button is-white is-inverted">
+                                        <span class="icon">
+                                          <i class="fab fa-facebook"></i>
+                                        </span>
+                                </a>
+                                <a href="mailto:campsunnyroad@gmail.com" class="button is-white is-inverted">
+                                        <span class="icon">
+                                          <i class="fas fa-envelope"></i>
+                                        </span>
+                                </a>
+                        </span>
+                    </span>
+                    </div>
+                  </div>
+          </div>
+          
+        </div>
+      </nav>

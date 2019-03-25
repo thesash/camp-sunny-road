@@ -1,7 +1,7 @@
-{{define "nav"}}{{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
+{{define "nav"}}
 {{end}}
 {{ define "main" }}
-
+{{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
 {{$f := .Site.GetPage "/tickets"}}
 {{partial "passes" $f.Params}}
 
