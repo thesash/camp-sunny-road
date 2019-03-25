@@ -22,28 +22,10 @@ html {
   }
 
 body{
-    // border: 10px solid $mantis;
     background: $pampus;
     color: $mud!important;
     font-size: 18px;
 }
-
-// body:before, body:after {
-//     content: "";
-//     position: fixed;
-//     background: $mantis;
-//     left: 0;
-//     right: 0;
-//     height: 10px;
-//     z-index: 100000;
-// }
-// body:before {
-//     top: 0;
-// }
-// body:after {
-//     bottom: 0;
-// }
-
 
 .map-image{
     background-image: url('/img/map.jpg');
