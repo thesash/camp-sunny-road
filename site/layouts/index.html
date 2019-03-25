@@ -1,10 +1,9 @@
-{{define "nav" }}{{partial "header-home"}}{{ end }}
+{{define "nav"}}{{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
+{{end}}
 {{ define "main" }}
 
-{{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
-
-{{$s := .Site.GetPage "/slides" }}
-{{partial "slides.html"  $s.Params}}
+{{$f := .Site.GetPage "/tickets"}}
+{{partial "passes" $f.Params}}
 
 {{$p := .Site.GetPage "/partners"}}
 {{partial "partners.html" $p.Params}}
@@ -12,7 +11,7 @@
 {{partial "activities.html" .Params}}
 
 {{range .Params.sections}}
-    {{ partial "short-text" (dict "heading" .heading "text" .text)}}
+    {{ partial "text-section" (dict "label" .label "height" .height "heading" .heading "text" .text)}}
 {{end}}
-
+{{partial "contact.html" .}}
 {{ end }}

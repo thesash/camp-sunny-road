@@ -3,7 +3,8 @@
   {{block "head" .}}{{ partial "head" . }}{{ end }}
   <body class="sans-serif">
     {{block "nav" .}}{{ partial "nav" . }}{{ end }}
-    {{ block "main" . }}{{ end }}   
-    {{ partial "footer" . }} 
+    {{ block "main" . }}{{ end }} 
+    {{$f := .Site.GetPage "/footer"}}  
+    {{ partial "footer" $f.Params }} 
   </body>
 </html>

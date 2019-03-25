@@ -17,26 +17,38 @@
 
 @import "../css/hugo-easy-gallery.css";
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
-    border: 10px solid $lightning;
+    // border: 10px solid $mantis;
     background: $pampus;
     color: $mud!important;
+    font-size: 18px;
 }
 
-body:before, body:after {
-    content: "";
-    position: fixed;
-    background: $lightning;
-    left: 0;
-    right: 0;
-    height: 10px;
-    z-index: 100000;
-}
-body:before {
-    top: 0;
-}
-body:after {
-    bottom: 0;
+// body:before, body:after {
+//     content: "";
+//     position: fixed;
+//     background: $mantis;
+//     left: 0;
+//     right: 0;
+//     height: 10px;
+//     z-index: 100000;
+// }
+// body:before {
+//     top: 0;
+// }
+// body:after {
+//     bottom: 0;
+// }
+
+
+.map-image{
+    background-image: url('/img/map.jpg');
+    background-size: cover;
+
 }
 
 
@@ -94,14 +106,26 @@ body:after {
     margin-bottom: 25px;
 }
 
+.home-cta{
+    p, h1, h2, h3, li a{
+        text-shadow: 2px 2px $elephant;
+    }
+    
+}
+
+.home-cta .hero-foot{
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
 @media (min-width: $tablet){
-    .headline-cta h1{
+    .home-cta h1{
         font-size: 60px !important;
     }
 }
 
 @media (min-width: $desktop){
-    .headline-cta h1{
+    .home-cta h1{
         font-size: 70px !important;
     }
     .is-offset-0-desktop{
@@ -154,21 +178,25 @@ body:after {
     box-shadow: 4px 4px $mud;
 }
 
-.hp-section{
-    margin-top:20px;
+.info-module, .hp-section{
+    margin-top:30px;
 }
 
-.activities-list, .nightlife-list{
+.activities h2{
+    margin-bottom:40px !important;
+}
+
+.activities-list{
     display:list-item;
-    font-size: 12px;
+    font-size: 16px;
     font-weight:bold;
-    padding: 0px 15px 0px 0px;
-    margin-bottom: 10px!important;
+    padding: 0px 34px 0px 0px;
+    margin-bottom: 15px!important;
     margin-left: 20px;
     margin-right: -20px;    
 }
 
-.activities-list:before, .nightlife-list:before {
+.activities-list:before {
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     margin-left: -1.3em; /* same as padding-left set on li */
@@ -183,13 +211,6 @@ margin-left: -1.3em; /* same as padding-left set on li */
 width: 1.3em; /* same as padding-left set on li */
 }
 
-.activities-list:before{
-    content: "\f00c";
-}
-
-.nightlife-list:before{
-    content: "\f561";
-}
 
 .address-title{
     margin-bottom:5px !important;
@@ -215,4 +236,52 @@ width: 1.3em; /* same as padding-left set on li */
 
 .footer .columns{
     padding: .75rem
+}
+
+.passes ul{
+    list-style-type: disc !important;
+    list-style-position: outside;
+}
+
+.passes h4.need-code{
+    margin-bottom: 10px !important;    
+}
+
+.passes li {
+    display: list-item;
+    padding-top: 0;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.passes p{
+    margin-bottom: 20px;
+}
+
+.partners li img{
+    max-width: 48px;
+}
+
+.headline {
+    margin-top: 50px;
+}
+
+.pass-info{
+    margin-bottom:25px;
+}
+
+.our-story{
+    background-color: $pampus;
+}
+
+.location{
+    background-color:$punch;
+    margin-bottom: -40px;
+    div, p, h2, h3, h4 {
+        color: white;
+    }
+}
+
+footer h2{
+    color:white !important;
 }

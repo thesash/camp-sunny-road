@@ -1,5 +1,5 @@
 ---
-cover: /img/slides/map.jpg
+cover: /img/happy.jpeg
 slides:
   - original: /img/slides/cover.jpg
     medium: /img/slides/cover@0.5x.jpg

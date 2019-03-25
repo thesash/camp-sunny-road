@@ -1,13 +1,70 @@
-<section class="container headline-cta">
-    <div class="is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet column">
-        <h1 class="title is-1 uppercase">{{.heading}}</h1>
-        <h2 class="title is-4">{{.subhead}}</h2>
-        <h3 class="subtitle">{{.subtitle}}</h3>
-    </div>
-    <div class="is-10-mobile is-offset-1-mobile is-6-tablet is-offset-2-tablet is-4-desktop column ">
+<section class="hero is-link map-image is-fullheight home-cta">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <img src="/img/logo.png" alt="Logo">
+                </a>
+                <span class="navbar-item is-hidden-desktop right">
+                        <a href="/apply" class="button is-white is-inverted">
+                            Request Code
+                        </a>
+                  </span>
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                <span class="navbar-item">
+                        <a href="/apply" class="button is-white is-inverted">
+                            Request Code
+                        </a>
+                  </span>
+                  <span class="navbar-item">
+                    <a href="https://www.instagram.com/campsunnyroad/" class="button is-white is-inverted">
+                      <span class="icon">
+                        <i class="fab fa-instagram"></i>
+                      </span>
+                    </a>
+                  </span>
+                  <span href="https://www.facebook.com/campsunnyroad " class="navbar-item">
+                        <a class="button is-white is-inverted">
+                          <span class="icon">
+                            <i class="fab fa-facebook"></i>
+                          </span>
+                        </a>
+                </span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title is-1 uppercase">{{.heading}}</h1>
+            <h2 class="title is-4">{{.subhead}}</h2>
+            <h3 class="subtitle">{{.subtitle}}</h3>
             <a href= {{.url}} class="button is-large is-primary">
-                <strong>{{.button}}</strong>
-            </a>
-            <p>{{.text}}</p>
-    </div>
+                    <strong>{{.button}}</strong>
+                </a>
+          </div>
+        </div>
+      
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+          <nav class="tabs">
+            <div class="container">
+              <ul>
+                <li><a href="#passes">Passes</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
 </section>
