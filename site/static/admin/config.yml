@@ -31,9 +31,7 @@ collections: # A list of collections the CMS should be able to edit
             name: features
             widget: list
             fields:
-              - label: Feature
               - name: feature
-              - widget: text
           - {label: "Apply Headline", name: apply_headline, widget: string}
           - {label: "Apply Text", name: apply_text, widget: string}
           - {label: "Apply Button", name: apply_button, widget: string}
