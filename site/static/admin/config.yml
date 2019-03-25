@@ -63,19 +63,21 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/about/_index.md"
         label: "Our Story"
         name: our_story
-        - {label: Title, name: title, widget: string}
-        - {label: Heading, name: heading, widget: string}
-        - {label: Body, name: body, widget: markdown}
-        - {label: Label, name: label, widget: string}
-        - {label: Height, name: height, widget: height}
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Label, name: label, widget: string}
+          - {label: Height, name: height, widget: height}
       - file: "site/location/_index.md"
         label: "Location"
         name: location
-        - {label: Title, name: title, widget: string}
-        - {label: Heading, name: heading, widget: string}
-        - {label: Body, name: body, widget: markdown}
-        - {label: Label, name: label, widget: string}
-        - {label: Height, name: height, widget: height}
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Label, name: label, widget: string}
+          - {label: Height, name: height, widget: height}
       - file: "site/content/contact/_index.md"
         label: "Contact"
         name: "contact"
@@ -85,6 +87,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/footer/_index.md"
         label: "Footer"
         name: footer
-        - {label: Heading, name: heading, widget: string}
+        fields:
+          - {label: Heading, name: heading, widget: string}
 
 
