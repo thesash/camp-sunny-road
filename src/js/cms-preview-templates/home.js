@@ -52,7 +52,6 @@ export default class PostPreview extends React.Component {
               </nav>
             </div>
           
-            <!-- Hero content: will be in the middle -->
             <div class="hero-body">
               <div class="container has-text-centered">
                 <h1 class="title is-1 uppercase">{entry.getIn(["data", "heading"])}</h1>
@@ -64,7 +63,6 @@ export default class PostPreview extends React.Component {
               </div>
             </div>
           
-            <!-- Hero footer: will stick at the bottom -->
             <div class="hero-foot">
               <nav class="tabs">
                 <div class="container">
