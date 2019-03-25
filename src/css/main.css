@@ -7167,5 +7167,10 @@ footer h2 {
 .hero.is-link a.navbar-item:hover {
   background-color: transparent; }
 
-.signup-button {
-  margin-top: 7px; }
+.navbar-item > .buttons {
+  margin-bottom: 0px; }
+
+.nav-button {
+  margin-bottom: 0 !important; }
+  .nav-button .button {
+    margin-bottom: 0 !important; }
