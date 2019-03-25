@@ -46,9 +46,7 @@ collections: # A list of collections the CMS should be able to edit
             name: partners
             widget: list
             fields:
-              - label: Logo
-              - name: logo
-              - widget: image
+              - {label: Logo, name: logo, widget: image}
       - file: "site/content/activities/_index.md"
         label: "Activities"
         name: "activities"
