@@ -6949,9 +6949,25 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-@media (min-width: 769px) {
-  body {
-    border: 10px solid #fdba12; } }
+body {
+  border: 10px solid #fdba12;
+  background: #f3f1ed;
+  color: #584106 !important; }
+
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #fdba12;
+  left: 0;
+  right: 0;
+  height: 10px;
+  z-index: 100000; }
+
+body:before {
+  top: 0; }
+
+body:after {
+  bottom: 0; }
 
 .subtitle {
   color: #584106; }

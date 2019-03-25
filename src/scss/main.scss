@@ -17,13 +17,28 @@
 
 @import "../css/hugo-easy-gallery.css";
 
-
-
-@media (min-width: $tablet){
-    body {
-        border: 10px solid $lightning;
-    }
+body{
+    border: 10px solid $lightning;
+    background: $pampus;
+    color: $mud!important;
 }
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: $lightning;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 100000;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+
 
 .subtitle{
     color: $mud;
