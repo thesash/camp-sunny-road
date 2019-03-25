@@ -6949,20 +6949,6 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-body {
-  border: 10px solid #fdba12;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  overflow-y: scroll;
-  /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-  background: #f3f1ed;
-  color: #584106 !important; }
-
 @media (min-width: 769px) {
   body {
     border: 10px solid #fdba12; } }
