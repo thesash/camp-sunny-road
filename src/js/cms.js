@@ -26,6 +26,6 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
-// CMS.registerPreviewTemplate("contact", ContactPreview);
+CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerPreviewTemplate("passes", PassesPreview);
 CMS.registerWidget("color", ColorControl);

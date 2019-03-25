@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Button, name: button, widget: string}
           - {label: Url, name: url, widget: string}
-      - file: "site/tickets/_index.md"
+      - file: "site/content/tickets/_index.md"
         label: "Passes"
         name: "passes"
         delete: false
@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Apply Headline", name: apply_headline, widget: string}
           - {label: "Apply Text", name: apply_text, widget: string}
           - {label: "Apply Button", name: apply_button, widget: string}
-      - file: "site/partners/_index.md"
+      - file: "site/content/partners/_index.md"
         label: "Partners"
         name: "partners"
         delete: false
@@ -50,7 +50,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: Logo
               - name: logo
               - widget: image
-      - file: "site/activities/_index.md"
+      - file: "site/content/activities/_index.md"
         label: "Activities"
         name: "activities"
         delete: false
@@ -64,7 +64,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: Name
               - name: name
               - widget: string
-      - file: "site/about/_index.md"
+      - file: "site/content/about/_index.md"
         label: "Our Story"
         name: our_story
         delete: false
@@ -74,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Body, name: body, widget: markdown}
           - {label: Label, name: label, widget: string}
           - {label: Height, name: height, widget: height}
-      - file: "site/location/_index.md"
+      - file: "site/content/location/_index.md"
         label: "Location"
         name: location
         delete: false
@@ -91,7 +91,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Heading, name: heading, widget: string}
           - {label: Text, name: text, widget: text}
-      - file: "site/footer/_index.md"
+      - file: "site/content/footer/_index.md"
         label: "Footer"
         name: footer
         delete: false
