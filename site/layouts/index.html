@@ -8,10 +8,16 @@
 {{$p := .Site.GetPage "/partners"}}
 {{partial "partners.html" $p.Params}}
 
-{{partial "activities.html" .Params}}
+{{$a := .Site.GetPage "/activities"}}
+{{partial "activities.html" $a.Params}}
 
-{{range .Params.sections}}
-    {{ partial "text-section" (dict "label" .label "height" .height "heading" .heading "text" .text)}}
-{{end}}
-{{partial "contact.html" .}}
+
+{{$s := .Site.GetPage "/about"}}
+{{ partial "text-section" (dict "content" $s.Content "heading" $s.Params.heading "label" $s.Params.label "height" $s.Params.height)}}
+
+{{$l := .Site.GetPage "/location"}}
+{{ partial "text-section" (dict "content" $l.Content "heading" $l.Params.heading "label" $l.Params.label "height" $l.Params.height)}}
+
+{{$c := .Site.GetPage "/contact"}}
+{{partial "contact.html" $c.Params}}
 {{ end }}
