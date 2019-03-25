@@ -1,0 +1,215 @@
+/* Utilities */
+@import "webfonts.scss";
+@import "variable-overrides";
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/functions.sass";
+@import "derived-overrides";
+@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/animations.sass";
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+@import "../../node_modules/bulma/sass/utilities/controls.sass";
+
+@import "../../node_modules/bulma/sass/base/_all";
+@import "../../node_modules/bulma/sass/elements/_all";
+@import "../../node_modules/bulma/sass/components/_all";
+@import "../../node_modules/bulma/sass/grid/_all";
+@import "../../node_modules/bulma/sass/layout/_all";
+
+@import "../css/hugo-easy-gallery.css";
+
+body{
+    border: 10px solid $lightning;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+    background: $pampus;
+    color: $mud!important;
+}
+
+@media (min-width: $tablet){
+    body {
+        border: 10px solid $lightning;
+    }
+}
+
+.subtitle{
+    color: $mud;
+}
+
+.home-header{
+    padding: 40px 0 20px;
+}
+
+.home-header .columns{
+    margin:0 !important;
+}
+
+.navbar-brand{
+    min-height: 5rem;
+}
+
+
+.navbar-item img{
+    max-height:50px;
+}
+
+.navbar-item.right{
+    margin-left: auto;
+}
+
+
+.navbar-burger{
+    margin: auto 0;
+    position: nonw;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.home-subtitle{
+    margin-bottom:10px!important;
+}
+
+.large-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.title.is-1 {
+    font-family: "Noka-Black", "Noka Black", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+    
+}
+
+.headline-cta{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: $tablet){
+    .headline-cta h1{
+        font-size: 60px !important;
+    }
+}
+
+@media (min-width: $desktop){
+    .headline-cta h1{
+        font-size: 70px !important;
+    }
+    .is-offset-0-desktop{
+        margin-left: 0 !important;
+    }
+}
+
+.headline-cta p{
+    color: $mud;
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.headline-cta .button{
+    width: 100%;
+}
+
+.center-title{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.title-stroke:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 3px solid $lightning;
+    
+}
+
+.slides{
+    border: 4px solid $white;
+    box-shadow: 6px 6px $mud;
+    margin-bottom: 20px;
+}
+
+.slides:hover{
+    filter: opacity(90%);
+}
+
+.slides:active{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: -2px;
+    margin-bottom: 18px;
+    box-shadow: 4px 4px $mud;
+}
+
+.hp-section{
+    margin-top:20px;
+}
+
+.activities-list, .nightlife-list{
+    display:list-item;
+    font-size: 12px;
+    font-weight:bold;
+    padding: 0px 15px 0px 0px;
+    margin-bottom: 10px!important;
+    margin-left: 20px;
+    margin-right: -20px;    
+}
+
+.activities-list:before, .nightlife-list:before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+
+.activities-list:before {
+content: "\f00c";
+font-family: "Font Awesome 5 Free";
+display: inline-block;
+margin-left: -1.3em; /* same as padding-left set on li */
+width: 1.3em; /* same as padding-left set on li */
+}
+
+.activities-list:before{
+    content: "\f00c";
+}
+
+.nightlife-list:before{
+    content: "\f561";
+}
+
+.address-title{
+    margin-bottom:5px !important;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: $old-gold;
+    color: white;
+}
+
+.footer .is-6 {
+    color: white;
+    margin-top: 10px;
+}
+.button.is-white{
+    color:$mud;
+}
+
+.footer small{
+    margin-top: 30px;
+}
+
+.footer .columns{
+    padding: .75rem
+}
