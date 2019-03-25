@@ -7091,7 +7091,7 @@ body {
 
 .footer {
   margin-top: 40px;
-  background-color: #f3f1ed;
+  background-color: #cd9a3c;
   color: white; }
 
 .footer .is-6 {
@@ -7102,7 +7102,9 @@ body {
   color: #584106; }
 
 .footer small {
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-align: center;
+  display: block; }
 
 .footer .columns {
   padding: .75rem; }
@@ -7147,9 +7149,20 @@ footer h2 {
 .contact p {
   margin-bottom: 20px; }
 
+.contact .buttons {
+  margin-bottom: 30px; }
+
 #canyon-creek-sports-lodge {
   font-size: 20px;
   font-weight: bold; }
 
 .text-section p {
   margin-bottom: 15px; }
+
+.home-cta .navbar-start a {
+  color: black !important;
+  font-weight: bold;
+  font-size: 14px; }
+
+.hero.is-link a.navbar-item:hover {
+  background-color: transparent; }

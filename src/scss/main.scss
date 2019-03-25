@@ -218,7 +218,7 @@ width: 1.3em; /* same as padding-left set on li */
 
 .footer{
     margin-top: 40px;
-    background-color: $pampus;
+    background-color: $old-gold;
     color: white;
 }
 
@@ -232,6 +232,8 @@ width: 1.3em; /* same as padding-left set on li */
 
 .footer small{
     margin-top: 30px;
+    text-align: center;
+    display: block;
 }
 
 .footer .columns{
@@ -286,8 +288,13 @@ footer h2{
     color:white !important;
 }
 
+
 .contact p{
     margin-bottom: 20px;
+}
+
+.contact .buttons{
+    margin-bottom: 30px;
 }
 
 #canyon-creek-sports-lodge{
@@ -297,4 +304,14 @@ footer h2{
 
 .text-section p{
     margin-bottom:15px;
+}
+
+.home-cta .navbar-start a{
+    color: black !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero.is-link a.navbar-item:hover{
+    background-color: transparent;
 }

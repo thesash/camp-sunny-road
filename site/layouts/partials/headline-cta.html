@@ -1,10 +1,10 @@
-<section class="hero is-link map-image is-fullheight home-cta">
+<section id="navTop" class="hero is-link map-image is-fullheight home-cta has-navbar-fixed-top">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
-          <nav class="navbar">
+          <nav class="navbar is-fixed-top">
             <div class="container">
               <div class="navbar-brand">
-                <a class="navbar-item">
+                <a href="#navTop" class="navbar-item">
                   <img src="/img/logo.png" alt="Logo"/>
                 </a>
                 <span class="navbar-item is-hidden-desktop right">
@@ -14,26 +14,48 @@
                   </span>
               </div>
               <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-start">
+                    <span class="navbar-item">
+                        <a href="#passes">Passes</a>
+                    </span>
+                    <span class="navbar-item">
+                        <a href="#partners">Partners</a>
+                    </span>
+                    <span class="navbar-item">
+                        <a href="#activities">Activities</a>
+                    </span>
+                    <span class="navbar-item">
+                        <a href="#our-story">Our Story</a>
+                    </span>
+                    <span class="navbar-item">
+                        <a href="#location">Location</a>
+                    </span>
+                    <span class="navbar-item">
+                        <a href="#contact">Contact  </a>
+                    </span>
+                </div>
                 <div class="navbar-end">
                 <span class="navbar-item">
-                        <a href="/apply" class="button is-white is-inverted">
-                            Request Code
-                        </a>
-                  </span>
-                  <span class="navbar-item">
-                    <a href="https://www.instagram.com/campsunnyroad/" class="button is-white is-inverted">
-                      <span class="icon">
-                        <i class="fab fa-instagram"></i>
-                      </span>
-                    </a>
-                  </span>
-                  <span href="https://www.facebook.com/campsunnyroad " class="navbar-item">
-                        <a class="button is-white is-inverted">
-                          <span class="icon">
-                            <i class="fab fa-facebook"></i>
-                          </span>
-                        </a>
-                </span>
+                    <span class="buttons has-addons">
+                            <a href="/apply" class="button is-white is-inverted">
+                                Sign Up
+                            </a>
+                            <a href="https://www.instagram.com/campsunnyroad/" class="button is-white is-inverted">
+                                <span class="icon">
+                                  <i class="fab fa-instagram"></i>
+                                </span>
+                            </a>
+                            <a href="https://www.facebook.com/campsunnyroad" class="button is-white is-inverted">
+                                    <span class="icon">
+                                      <i class="fab fa-facebook"></i>
+                                    </span>
+                            </a>
+                            <a href="mailto:campsunnyroad@gmail.com" class="button is-white is-inverted">
+                                    <span class="icon">
+                                      <i class="fas fa-envelope"></i>
+                                    </span>
+                            </a>
+                    </span>
                 </div>
               </div>
             </div>
@@ -50,21 +72,5 @@
                     <strong>{{.button}}</strong>
                 </a>
           </div>
-        </div>
-      
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-          <nav class="tabs">
-            <div class="container">
-              <ul>
-                <li><a href="#passes">Passes</a></li>
-                <li><a href="#partners">Partners</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#our-story">Our Story</a></li>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
         </div>
 </section>
