@@ -1,4 +1,5 @@
 ---
+title: "Partners"
 partners:
 - logo: /img/partners/gts.png
 - logo: /img/partners/red-bull.png

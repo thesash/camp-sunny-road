@@ -1,4 +1,5 @@
 ---
+title: "Our Story"
 heading: "Our Story"
 label: "our-story"
 height: "fullheight"
