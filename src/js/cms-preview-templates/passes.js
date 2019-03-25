@@ -7,7 +7,7 @@ const Feature = ({feature}) =>
 
 const Features = ({data}) => data && data.length > 0
     ? <ul class="is-10 columns is-multiline is-mobile bullet-list">
-      {data.map(({feature}) => <Feature hfeature={feature}/>)}
+      {data.map(({feature}) => <Feature feature={feature}/>)}
     </ul>
     : "";
 
