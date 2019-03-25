@@ -61,16 +61,16 @@ collections: # A list of collections the CMS should be able to edit
               - name: name
               - widget: string
       - file: "site/about/_index.md"
-        - label: "Our Story"
-        - name: our_story
+        label: "Our Story"
+        name: our_story
         - {label: Title, name: title, widget: string}
         - {label: Heading, name: heading, widget: string}
         - {label: Body, name: body, widget: markdown}
         - {label: Label, name: label, widget: string}
         - {label: Height, name: height, widget: height}
       - file: "site/location/_index.md"
-        - label: "Location"
-        - name: location
+        label: "Location"
+        name: location
         - {label: Title, name: title, widget: string}
         - {label: Heading, name: heading, widget: string}
         - {label: Body, name: body, widget: markdown}
@@ -83,8 +83,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Heading, name: heading, widget: string}
           - {label: Text, name: text, widget: text}
       - file: "site/footer/_index.md"
-        - label: "Footer"
-        - name: footer
+        label: "Footer"
+        name: footer
         - {label: Heading, name: heading, widget: string}
 
 
