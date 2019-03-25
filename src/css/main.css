@@ -1955,29 +1955,29 @@ a.box:active {
   position: relative; }
   @media screen and (min-width: 1088px) {
     .container {
-      max-width: 940px;
-      width: 940px; }
+      max-width: 960px;
+      width: 960px; }
       .container.is-fluid {
-        margin-left: 74px;
-        margin-right: 74px;
+        margin-left: 64px;
+        margin-right: 64px;
         max-width: none;
         width: auto; } }
   @media screen and (max-width: 1279px) {
     .container.is-widescreen {
-      max-width: 1132px;
+      max-width: 1152px;
       width: auto; } }
   @media screen and (max-width: 1471px) {
     .container.is-fullhd {
-      max-width: 1324px;
+      max-width: 1344px;
       width: auto; } }
   @media screen and (min-width: 1280px) {
     .container {
-      max-width: 1132px;
-      width: 1132px; } }
+      max-width: 1152px;
+      width: 1152px; } }
   @media screen and (min-width: 1472px) {
     .container {
-      max-width: 1324px;
-      width: 1324px; } }
+      max-width: 1344px;
+      width: 1344px; } }
 
 .content li + li {
   margin-top: 0.25em; }
@@ -7042,7 +7042,7 @@ body {
   margin-top: 2px;
   margin-left: 2px;
   margin-right: -2px;
-  margin-bottom: -2px;
+  margin-bottom: 18px;
   box-shadow: 4px 4px #584106; }
 
 .hp-section {
