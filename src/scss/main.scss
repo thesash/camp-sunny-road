@@ -18,7 +18,7 @@
 @import "../css/hugo-easy-gallery.css";
 
 body{
-    // border: 10px solid $lightning;
+    border: 10px solid $lightning;
     position: absolute;
     top: 0;
     right: 0;
@@ -29,11 +29,11 @@ body{
     color: $mud!important;
 }
 
-// @media (min-width: $tablet){
-//     body {
-//         border: 10px solid $lightning;
-//     }
-// }
+@media (min-width: $tablet){
+    body {
+        border: 10px solid $lightning;
+    }
+}
 
 .subtitle{
     color: $mud;
@@ -41,6 +41,10 @@ body{
 
 .home-header{
     padding: 40px 0 20px;
+}
+
+.home-header .columns{
+    margin:0 !important;
 }
 
 .navbar-brand{
@@ -76,7 +80,8 @@ body{
 }
 
 .title.is-1 {
-    font-family: "Noka-Black";
+    font-family: "Noka-Black", "Noka Black", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+    
 }
 
 .headline-cta{

@@ -6950,6 +6950,7 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 body {
+  border: 10px solid #fdba12;
   position: absolute;
   top: 0;
   right: 0;
@@ -6959,11 +6960,18 @@ body {
   background: #f3f1ed;
   color: #584106 !important; }
 
+@media (min-width: 769px) {
+  body {
+    border: 10px solid #fdba12; } }
+
 .subtitle {
   color: #584106; }
 
 .home-header {
   padding: 40px 0 20px; }
+
+.home-header .columns {
+  margin: 0 !important; }
 
 .navbar-brand {
   min-height: 5rem; }
@@ -6989,7 +6997,7 @@ body {
   margin-bottom: 20px; }
 
 .title.is-1 {
-  font-family: "Noka-Black"; }
+  font-family: "Noka-Black", "Noka Black", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 .headline-cta {
   margin-top: 5px;
