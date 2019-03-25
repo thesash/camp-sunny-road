@@ -6950,7 +6950,6 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 body {
-  border: 10px solid #fdba12;
   position: absolute;
   top: 0;
   right: 0;
@@ -6959,10 +6958,6 @@ body {
   overflow: auto;
   background: #f3f1ed;
   color: #584106 !important; }
-
-@media (min-width: 769px) {
-  body {
-    border: 10px solid #fdba12; } }
 
 .subtitle {
   color: #584106; }
