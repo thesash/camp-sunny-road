@@ -11,6 +11,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/_index.md"
         label: "Hero"
         name: "home"
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
@@ -21,6 +22,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/tickets/_index.md"
         label: "Passes"
         name: "passes"
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
@@ -38,6 +40,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/partners/_index.md"
         label: "Partners"
         name: "partners"
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - label: Partners
@@ -50,6 +53,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/activities/_index.md"
         label: "Activities"
         name: "activities"
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
@@ -63,6 +67,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/about/_index.md"
         label: "Our Story"
         name: our_story
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
@@ -72,6 +77,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/location/_index.md"
         label: "Location"
         name: location
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
@@ -81,12 +87,14 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/contact/_index.md"
         label: "Contact"
         name: "contact"
+        delete: false
         fields:
           - {label: Heading, name: heading, widget: string}
           - {label: Text, name: text, widget: text}
       - file: "site/footer/_index.md"
         label: "Footer"
         name: footer
+        delete: false
         fields:
           - {label: Heading, name: heading, widget: string}
 
