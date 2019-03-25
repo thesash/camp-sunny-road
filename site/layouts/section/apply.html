@@ -1,7 +1,0 @@
-{{define "main"}}
-{{ with .Site.GetPage "section" "partners" }}
-    {{range .Params.partners}}
-        <img src="{{.logo}}"/>
-    {{end}}
-{{ end }}
-{{end}}

@@ -6,6 +6,9 @@
 {{$s := .Site.GetPage "/slides" }}
 {{partial "slides.html"  $s.Params}}
 
+{{$p := .Site.GetPage "/partners"}}
+{{partial "partners.html" $p.Params}}
+
 {{partial "activities.html" .Params}}
 
 {{range .Params.sections}}

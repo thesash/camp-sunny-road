@@ -1,13 +1,14 @@
 ---
 partners:
 - logo: /img/partners/gts.png
-- logo: /img/partners/redbull.png
+- logo: /img/partners/red-bull.png
 - logo: /img/partners/babe-rose.png
 - logo: /img/partners/cayman-jack.png
-- logo: /img/partners/goldenroad.png
+- logo: /img/partners/golden-road.png
 - logo: /img/partners/foursigmatic.png
 - logo: /img/partners/kyla.png
-- logo: /img/partners/cutwater-spritis.png
+- logo: /img/partners/pabst.png
+- logo: /img/partners/cutwater-spirits.png
 - logo: /img/partners/joymode.png
 - logo: /img/partners/morning-recovery.png
 - logo: /img/partners/bare-republic.png

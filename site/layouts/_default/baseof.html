@@ -4,6 +4,7 @@
   <body class="sans-serif">
     {{block "nav" .}}{{ partial "nav" . }}{{ end }}
     {{ block "main" . }}{{ end }}   
+    {{$s := .Site.GetPage "/slides" }}
     {{ partial "footer" . }} 
   </body>
 </html>

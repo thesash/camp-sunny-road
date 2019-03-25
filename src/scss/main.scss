@@ -94,6 +94,9 @@ body{
     .headline-cta h1{
         font-size: 70px !important;
     }
+    .is-offset-0-desktop{
+        margin-left: 0 !important;
+    }
 }
 
 .headline-cta p{
@@ -194,4 +197,12 @@ width: 1.3em; /* same as padding-left set on li */
 }
 .button.is-white{
     color:$mud;
+}
+
+.footer small{
+    margin-top: 30px;
+}
+
+.footer .columns{
+    padding: .75rem
 }
