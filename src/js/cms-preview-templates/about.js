@@ -11,7 +11,7 @@ export default class PostPreview extends React.Component {
               <div class="columns">
                 <div class="is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet is-6-desktop is-offset-3-desktop column">
                   <h2 class="is-2 is-uppercase title">{entry.getIn(["data","heading"])}</h2>
-                  {widgetFor("body")}
+                  { widgetFor("body") }
                 </div>
               </div>
             </div>
