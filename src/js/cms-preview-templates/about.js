@@ -5,7 +5,7 @@ export default class PostPreview extends React.Component {
     const {entry, widgetFor} = this.props;
 
 
-    return <section id={entry.getIn(["data","label"])} class="text-section hero is-{{.height}} {{.label}}">
+    return <section id="our-story" class="text-section hero is-full our-story">
         <div class="hero-body">
             <div class="container">
               <div class="columns">

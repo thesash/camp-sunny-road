@@ -33,7 +33,7 @@ CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.registerPreviewTemplate("passes", PassesPreview);
 CMS.registerPreviewTemplate("location", LocationPreview);
-CMS.registerPreviewTemplate("our_story", AboutPreview);
+CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("activities", ActivitiesPreview);
 CMS.registerPreviewTemplate("partners", PartnersPreview);
 CMS.registerWidget("color", ColorControl);
