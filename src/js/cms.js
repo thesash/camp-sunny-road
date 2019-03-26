@@ -10,6 +10,7 @@ import PassesPreview from "./cms-preview-templates/passes";
 import LocationPreview from "./cms-preview-templates/location";
 import AboutPreview from "./cms-preview-templates/about";
 import ActivitiesPreview from "./cms-preview-templates/activities";
+import PartnersPreview from "./cms-preview-templates/partners";
 
 
 // Example of creating a custom color widget
@@ -34,4 +35,5 @@ CMS.registerPreviewTemplate("passes", PassesPreview);
 CMS.registerPreviewTemplate("location", LocationPreview);
 CMS.registerPreviewTemplate("our_story", AboutPreview);
 CMS.registerPreviewTemplate("activities", ActivitiesPreview);
+CMS.registerPreviewTemplate("partners", PartnersPreview);
 CMS.registerWidget("color", ColorControl);
