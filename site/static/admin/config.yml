@@ -1,12 +1,15 @@
 backend:
   name: git-gateway
 
+
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "sections"
     label: "Sections"
+    editor:
+      preview: false
     delete: false
     files:
       - file: "site/content/_index.md"
@@ -28,14 +31,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Subhead, name: subhead, widget: string}
+          - {label: "Apply Headline", name: apply_headline, widget: string}
+          - {label: "Apply Text", name: apply_text, widget: string}
+          - {label: "Apply Button", name: apply_button, widget: string}
           - label: Features
             name: features
             widget: list
             fields:
-              - name: feature
-          - {label: "Apply Headline", name: apply_headline, widget: string}
-          - {label: "Apply Text", name: apply_text, widget: string}
-          - {label: "Apply Button", name: apply_button, widget: string}
+            - {label: "Name", name: name, widget: text}
+         
       - file: "site/content/partners/_index.md"
         label: "Partners"
         name: "partners"
@@ -52,15 +56,12 @@ collections: # A list of collections the CMS should be able to edit
         name: "activities"
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - label: Activities
             name: activities
             widget: list
             fields:
-              - label: Name
-              - name: name
-              - widget: string
+              - {label: Name, name: name, widget: string}
       - file: "site/content/about/_index.md"
         label: "Our Story"
         name: our_story
@@ -76,11 +77,9 @@ collections: # A list of collections the CMS should be able to edit
         name: location
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
+          - {label: Height, name: height, widget: string}
           - {label: Body, name: body, widget: markdown}
-          - {label: Label, name: label, widget: string}
-          - {label: Height, name: height, widget: height}
       - file: "site/content/contact/_index.md"
         label: "Contact"
         name: "contact"
@@ -88,11 +87,5 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Heading, name: heading, widget: string}
           - {label: Text, name: text, widget: text}
-      - file: "site/content/footer/_index.md"
-        label: "Footer"
-        name: footer
-        delete: false
-        fields:
-          - {label: Heading, name: heading, widget: string}
 
 
