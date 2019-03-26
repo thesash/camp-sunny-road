@@ -1,7 +1,7 @@
 ---
 title: "Festival Pasess"
 heading: "Festival Passes"
-subhead: "All-inclusive 4-day festival passes inlude:"
+subhead: "All-inclusive 4-day festival passes include:"
 features:
 - name: "Lodging in newly-built bunks with comfortable beds and in-bunk bathrooms."
 - name: "All activities and nightlife, premium open bars, and access to the Sunny Road Dispensary."
