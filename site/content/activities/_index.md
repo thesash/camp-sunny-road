@@ -1,39 +1,36 @@
 ---
-title: "Activities"
-heading: "Activities"
-activities: 
-- name: "Archery"
-- name: "Arts ‘n Crafts"
-- name: "Baseball"
-- name: "Bubble Soccer"
-- name: "Capture the Flag"
-- name: "Color War"
-- name: "Climbing Walls"
-- name: "Dodgeball" 
-- name: "Frisbee Golf"
-- name: "Gaga" 
-- name: "Go-Karts"
-- name: "Hiking" 
-- name: "Karaoke"
-- name: "Painting"
-- name: "Ping Pong"
-- name: "Reiki"
-- name: "Ropes Course"
-- name: "Disco"
-- name: "Skate Park" 
-- name: "Giant Slip n' Slide"
-- name: "Softball"
-- name: "Pool Parties" 
-- name: "Tie-Dye"
-- name: "Trivia"
-- name: "Tenis"
-- name: "Ultimate Frisbee"
-- name: "Virtual Reality"
-- name: "Yoga"
-- name: "Zip-Lining"
-- name: "Campfires" 
-- name: "DJs"
-- name: "Silent Disco"
-- name: "Talent Show"
-- name: "Basketball Jam Bounce House"
+heading: Activities
+activities:
+  - name: Archery
+  - name: Arts ‘n Crafts
+  - name: Baseball
+  - name: Basketball
+  - name: Basketball Bounce House
+  - name: Bubble Soccer
+  - name: Capture the Flag
+  - name: Color War
+  - name: Dodgeball
+  - name: Frisbee Golf
+  - name: Gaga
+  - name: Go-Karts
+  - name: Hiking
+  - name: Indoor & Outdoor Climbing Walls
+  - name: Karaoke
+  - name: Ping Pong
+  - name: Reiki
+  - name: Ropes Course
+  - name: Silent Disco
+  - name: Skate Park
+  - name: Giant Slip n' Slide
+  - name: Softball
+  - name: Pool Parties
+  - name: Talent Show
+  - name: Tie-Dye
+  - name: Trivia
+  - name: Tennis
+  - name: Ultimate Frisbee
+  - name: Virtual Reality
+  - name: Yoga
+  - name: Zip-Lining
 ---
+
