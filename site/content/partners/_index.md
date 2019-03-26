@@ -14,5 +14,6 @@ partners:
   - logo: /img/partners/cutwater-spirits.png
   - logo: /img/partners/bare-republic.png
   - logo: /img/partners/beyond-meat.png
+  - logo: /img/morning.png
 ---
 
