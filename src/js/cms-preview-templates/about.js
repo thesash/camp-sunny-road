@@ -5,7 +5,7 @@ export default class PostPreview extends React.Component {
     const {entry, getAsset} = this.props;
 
 
-    return <section id={entry.getIn(["data","heading"])} class="text-section hero is-{{.height}} {{.label}}">
+    return <section id={entry.getIn(["data","label"])} class="text-section hero is-{{.height}} {{.label}}">
         <div class="hero-body">
             <div class="container">
               <div class="columns">
