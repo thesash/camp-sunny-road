@@ -17,7 +17,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Subhead, name: subhead, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
@@ -28,7 +27,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "passes"
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Subhead, name: subhead, widget: string}
           - {label: "Apply Headline", name: apply_headline, widget: string}
@@ -45,7 +43,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "partners"
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - label: Partners
             name: partners
             widget: list
@@ -67,18 +64,14 @@ collections: # A list of collections the CMS should be able to edit
         name: our_story
         delete: false
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Body, name: body, widget: markdown}
-          - {label: Label, name: label, widget: string}
-          - {label: Height, name: height, widget: height}
       - file: "site/content/location/_index.md"
         label: "Location"
         name: location
         delete: false
         fields:
           - {label: Heading, name: heading, widget: string}
-          - {label: Height, name: height, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "site/content/contact/_index.md"
         label: "Contact"
