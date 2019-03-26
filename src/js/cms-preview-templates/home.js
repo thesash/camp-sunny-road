@@ -2,7 +2,7 @@ import React from "react";
   
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
+    const {entry} = this.props;
 
     return <section class="hero is-link map-image is-fullheight home-cta has-navbar-fixed-top">   
         <div class="hero-body">

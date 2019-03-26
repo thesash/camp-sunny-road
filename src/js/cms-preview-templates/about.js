@@ -2,7 +2,7 @@ import React from "react";
   
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, getAsset} = this.props;
+    const {entry, widgetFor} = this.props;
 
 
     return <section id={entry.getIn(["data","label"])} class="text-section hero is-{{.height}} {{.label}}">

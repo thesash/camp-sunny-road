@@ -13,7 +13,7 @@ const Features = ({data}) => data && data.length > 0
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry, widgetFor, getAsset} = this.props;
+    const {entry} = this.props;
     const entryFeatures = entry.getIn(["data", "features"]);
     const features = entryFeatures ? entryFeatures.toJS() : [];
 
