@@ -3,20 +3,20 @@ import React from "react";
 export default class PostPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
-    let image = getAsset(entry.getIn(["data", "image"]));
 
 
-    return <section class="hero is-link map-image is-fullheight home-cta has-navbar-fixed-top">   
+    return <section id={entry.getIn(["data","heading"])} class="text-section hero is-{{.height}} {{.label}}">
         <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="title is-1 uppercase">{entry.getIn(["data", "heading"])}</h1>
-            <h2 class="title is-4">{entry.getIn(["data", "subhead"])}</h2>
-            <h3 class="subtitle">{entry.getIn(["data", "subtitle"])}</h3>
-                <a href="{{.url}}" class="button is-large is-primary">
-                    <strong>{entry.getIn(["data", "button"])}</strong>
-                </a>
+            <div class="container">
+              <div class="columns">
+                <div class="is-10-mobile is-offset-1-mobile is-8-tablet is-offset-2-tablet is-6-desktop is-offset-3-desktop column">
+                  <h2 class="is-2 is-uppercase title">{entry.getIn(["data","heading"])}</h2>
+                  {widgetFor("body")}
+                </div>
+              </div>
             </div>
           </div>
-    </section>;
+    </section>
+    ;
   }
 }
