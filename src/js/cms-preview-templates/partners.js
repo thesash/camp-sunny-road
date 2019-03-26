@@ -15,7 +15,7 @@ export default class PostPreview extends React.Component {
   render() {
     const {entry} = this.props;
     const entryPartners = entry.getIn(["data", "partners"]);
-    const partners = entryPartners ? entryActivities.toJS() : [];
+    const partners = entryPartners ? entryPartners.toJS() : [];
 
     return <section id="partners" class="partners hero is-white is-medium">
       <div class="hero-body">
