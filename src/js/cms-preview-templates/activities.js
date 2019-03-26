@@ -5,7 +5,7 @@ const Activity = ({name}) =>
         {name}
     </li>
 
-const Features = ({data}) => data && data.length > 0
+const Activities = ({data}) => data && data.length > 0
     ? <ul class="is-10 columns is-multiline is-mobile bullet-list">
       {data.map(({name}) => <Activity name={name}/>)}
     </ul>
