@@ -7174,3 +7174,7 @@ footer h2 {
   margin-bottom: 0 !important; }
   .nav-button .button {
     margin-bottom: 0 !important; }
+
+@media (max-width: 1088px) {
+  .nav-buttons {
+    display: none; } }

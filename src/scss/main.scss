@@ -308,3 +308,10 @@ footer h2{
     }
         
 }
+
+@media (max-width: $desktop){
+    .nav-buttons{
+        display: none;
+    }
+
+}
