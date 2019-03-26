@@ -11,7 +11,6 @@ partners:
 - logo: /img/partners/pabst.png
 - logo: /img/partners/cutwater-spirits.png
 - logo: /img/partners/joymode.png
-- logo: /img/partners/morning-recovery.png
 - logo: /img/partners/bare-republic.png
 - logo: /img/partners/libre-tequila.png
 - logo: /img/partners/smokies-edibles.png
