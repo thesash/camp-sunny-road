@@ -1,5 +1,7 @@
 ---
 heading: Location
+label: location
+height: medium
 ---
 #### Canyon Creek Sports Camp
 
