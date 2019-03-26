@@ -64,6 +64,8 @@ collections: # A list of collections the CMS should be able to edit
         delete: false
         fields:
           - {label: Heading, name: heading, widget: string}
+          - {label: label, name: label, widget: string}
+          - {label: height, name: height, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "site/content/location/_index.md"
         label: "Location"
@@ -71,6 +73,8 @@ collections: # A list of collections the CMS should be able to edit
         delete: false
         fields:
           - {label: Heading, name: heading, widget: string}
+          - {label: Label, name: label, widget: string}
+          - {label: Height, name: height, widget: string}
           - {label: Body, name: body, widget: markdown}
       - file: "site/content/contact/_index.md"
         label: "Contact"
