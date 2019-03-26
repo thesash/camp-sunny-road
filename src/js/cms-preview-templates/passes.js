@@ -25,7 +25,7 @@ export default class PostPreview extends React.Component {
                         <h2 class="title  is-2 is-uppercase">{entry.getIn(["data", "heading"])}</h2>
                         <h3 class="title is-4">{entry.getIn(["data", "subhead"])}</h3>
                         <ul class="is-10 columns is-multiline is-mobile bullet-list">
-                          <Features data={featu`res}/>
+                          <Features data={features}/>
                         </ul>
                 </div>
                 <div class="is-10-mobile is-offset-1-mobile is-4-tablet is-4-desktop column is-offset-1-desktop">
