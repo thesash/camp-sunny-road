@@ -9,5 +9,5 @@ features:
 - name: "Camp swag and other complimentary gifts from our sponsors."
 apply_headline: "Need the password?"
 apply_text: "Take a second to complete our brief camper application and we'll be in touch."
-apply_button: "Request Code"
+apply_button: "Request Password"
 ---
