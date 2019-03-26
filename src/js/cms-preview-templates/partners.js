@@ -13,7 +13,7 @@ const Partners= ({data}) => data && data.length > 0
 
 export default class PostPreview extends React.Component {
   render() {
-    const {entry} = this.props;
+    const {entry, getAsset} = this.props;
     const entryPartners = entry.getIn(["data", "partners"]);
     const partners = entryPartners ? entryPartners.toJS() : [];
 
