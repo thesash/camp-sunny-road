@@ -47,4 +47,5 @@ slides:
     medium: /img/slides/claim-spot@0.5x.jpg
   - original: /img/slides/see-you-there.jpg
     medium: /img/slides/see-you-there@0.5x.jpg
+slug: "/"
 ---
