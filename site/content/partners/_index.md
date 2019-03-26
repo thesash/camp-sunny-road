@@ -1,23 +1,18 @@
 ---
-title: "Partners"
 partners:
-- logo: /img/partners/gts.png
-- logo: /img/partners/red-bull.png
-- logo: /img/partners/babe-rose.png
-- logo: /img/partners/cayman-jack.png
-- logo: /img/partners/golden-road.png
-- logo: /img/partners/foursigmatic.png
-- logo: /img/partners/kyla.png
-- logo: /img/partners/pabst.png
-- logo: /img/partners/cutwater-spirits.png
-- logo: /img/partners/joymode.png
-- logo: /img/partners/bare-republic.png
-- logo: /img/partners/libre-tequila.png
-- logo: /img/partners/smokies-edibles.png
-- logo: /img/partners/bon-and-viv.jpg
-- logo: /img/partners/beyond-meat.png
-- logo: /img/partners/golden-state-cider.png
-- logo: /img/partners/honey-pot.jpg
-- logo: /img/partners/kingpen.jpg
-- logo: /img/partners/morning-recovery.png
+  - logo: /img/partners/golden-road.png
+  - logo: /img/partners/gts.png
+  - logo: /img/partners/babe-rose.png
+  - logo: /img/partners/pabst.png
+  - logo: /img/partners/libre-tequila.png
+  - logo: /img/partners/bon-and-viv.jpg
+  - logo: /img/partners/kyla.png
+  - logo: /img/partners/foursigmatic.png
+  - logo: /img/partners/joymode.png
+  - logo: /img/partners/cayman-jack.png
+  - logo: /img/partners/red-bull.png
+  - logo: /img/partners/cutwater-spirits.png
+  - logo: /img/partners/bare-republic.png
+  - logo: /img/partners/beyond-meat.png
 ---
+
