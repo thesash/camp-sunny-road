@@ -7175,9 +7175,31 @@ footer h2 {
   .nav-button .button {
     margin-bottom: 0 !important; }
 
+.navbar-burger {
+  height: 36px;
+  width: 36px;
+  margin-right: 20px; }
+
 @media (max-width: 1088px) {
   .nav-buttons {
     display: none; } }
 
 .footer a {
   color: #0d364a; }
+
+.hero .navbar {
+  background-color: transparent;
+  transition: background-color 0.25s ease-in-out; }
+
+@media (min-width: 1088px) {
+  .hero .nav-background {
+    background-color: white; } }
+
+.hero .nav-background-toggle {
+  background-color: white; }
+
+.navbar-menu {
+  background-color: transparent !important;
+  transition: background-color 0.25s ease-in-out; }
+  .navbar-menu .is-active {
+    background-color: white !important; }

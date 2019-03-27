@@ -309,6 +309,12 @@ footer h2{
         
 }
 
+.navbar-burger {
+    height: 36px;
+    width: 36px;
+    margin-right: 20px;
+}
+
 @media (max-width: $desktop){
     .nav-buttons{
         display: none;
@@ -318,4 +324,28 @@ footer h2{
 
 .footer a{
     color: $elephant;
+}
+
+.hero .navbar{
+    background-color: transparent;
+    transition: background-color 0.25s ease-in-out;
+}
+
+@media (min-width: $desktop){
+    .hero .nav-background{
+        background-color: white;
+        
+    }
+}
+
+.hero .nav-background-toggle{
+    background-color: white;
+}
+
+.navbar-menu{
+    background-color: transparent!important;
+    transition: background-color 0.25s ease-in-out;
+    .is-active{
+        background-color: white!important;
+    }
 }
