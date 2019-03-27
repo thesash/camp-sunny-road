@@ -331,11 +331,9 @@ footer h2{
     transition: background-color 0.25s ease-in-out;
 }
 
-@media (min-width: $desktop){
-    .hero .nav-background{
-        background-color: white;
-        
-    }
+
+.hero .nav-background{
+    background-color: white;
 }
 
 .hero .nav-background-toggle{

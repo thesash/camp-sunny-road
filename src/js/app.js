@@ -41,12 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Get the target from the "data-target" attribute
         const target = document.getElementById('navBarBurger');
         const $target = document.getElementById('navbarMenuHeroA');
-        const mainNav = document.getElementById('mainNav');
 
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $target.classList.toggle('is-active');
         target.classList.toggle('is-active');
-        mainNav.classList.toggle('nav-background-toggle');
 
       });
     });
