@@ -7191,9 +7191,8 @@ footer h2 {
   background-color: transparent;
   transition: background-color 0.25s ease-in-out; }
 
-@media (min-width: 1088px) {
-  .hero .nav-background {
-    background-color: white; } }
+.hero .nav-background {
+  background-color: white; }
 
 .hero .nav-background-toggle {
   background-color: white; }
