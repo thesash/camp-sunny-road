@@ -336,7 +336,7 @@ footer h2{
     background-color: white;
 }
 
-.hero .navbar
+.hero .navbar{
     background-color: white;
 }
 
@@ -347,3 +347,8 @@ footer h2{
         background-color: white!important;
     }
 }
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+  }
