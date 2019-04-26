@@ -2,6 +2,10 @@
 {{end}}
 {{ define "main" }}
 {{ partial "headline-cta" (dict "heading" .Params.heading "subhead" .Params.subhead "subtitle" .Params.subtitle "text" .Params.text "button" .Params.button "url" .Params.url) }}
+
+{{$s := .Site.GetPage "/about"}}
+{{ partial "text-section" (dict "content" $s.Content "heading" $s.Params.heading "label" $s.Params.label "height" $s.Params.height)}}
+
 {{$f := .Site.GetPage "/tickets"}}
 {{partial "passes" $f.Params}}
 
@@ -10,10 +14,6 @@
 
 {{$a := .Site.GetPage "/activities"}}
 {{partial "activities.html" $a.Params}}
-
-
-{{$s := .Site.GetPage "/about"}}
-{{ partial "text-section" (dict "content" $s.Content "heading" $s.Params.heading "label" $s.Params.label "height" $s.Params.height)}}
 
 {{$l := .Site.GetPage "/location"}}
 {{ partial "text-section" (dict "content" $l.Content "heading" $l.Params.heading "label" $l.Params.label "height" $l.Params.height)}}

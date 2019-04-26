@@ -32,5 +32,6 @@ activities:
   - name: Virtual Reality
   - name: Yoga
   - name: Zip-Lining
+  - name: Landlights Instant Choir
 ---
 
