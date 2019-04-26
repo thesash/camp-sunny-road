@@ -15,7 +15,7 @@ partners:
   - logo: /img/partners/bare-republic.png
   - logo: /img/partners/beyond-meat.png
   - logo: /img/morning.png
-  - logo: /img/high-brew.png
   - logo: /img/gypsy.png
+  - logo: /img/high-brew.png
 ---
 
