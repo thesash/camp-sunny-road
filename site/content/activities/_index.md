@@ -16,6 +16,7 @@ activities:
   - name: Hiking
   - name: Indoor & Outdoor Climbing Walls
   - name: Karaoke
+  - name: Landlights Instant Choir
   - name: Ping Pong
   - name: Reiki
   - name: Ropes Course
@@ -32,6 +33,5 @@ activities:
   - name: Virtual Reality
   - name: Yoga
   - name: Zip-Lining
-  - name: Landlights Instant Choir
 ---
 
