@@ -17,6 +17,7 @@ activities:
   - name: Indoor & Outdoor Climbing Walls
   - name: Karaoke
   - name: Landlights Instant Choir
+  - name: Massage
   - name: Ping Pong
   - name: Reiki
   - name: Ropes Course
