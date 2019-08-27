@@ -1,6 +1,6 @@
 ---
 heading: Camp Sunny Road
-subhead: 'May 16-19, 2019'
+subhead: 'April 30 - May 3, 2020'
 subtitle: 'Lake Hughes, California'
 button: APPLY
 url: /apply
