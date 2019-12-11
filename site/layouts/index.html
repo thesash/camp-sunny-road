@@ -9,14 +9,15 @@
 {{$f := .Site.GetPage "/tickets"}}
 {{partial "passes" $f.Params}}
 
-{{$p := .Site.GetPage "/partners"}}
-{{partial "partners.html" $p.Params}}
 
 {{$a := .Site.GetPage "/activities"}}
 {{partial "activities.html" $a.Params}}
 
 {{$l := .Site.GetPage "/location"}}
 {{ partial "text-section" (dict "content" $l.Content "heading" $l.Params.heading "label" $l.Params.label "height" $l.Params.height)}}
+
+{{$p := .Site.GetPage "/partners"}}
+{{partial "partners.html" $p.Params}}
 
 {{$c := .Site.GetPage "/contact"}}
 {{partial "contact.html" $c.Params}}
