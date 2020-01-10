@@ -242,6 +242,10 @@ width: 1.3em; /* same as padding-left set on li */
     margin-bottom: 20px;
 }
 
+ipasses iframe{
+    height: 100% !important;
+}
+
 .partners li img{
     max-width: 60px;
 }
