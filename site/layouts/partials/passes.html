@@ -14,16 +14,24 @@
                             </ul>
                     </div>
                     <div class="is-12-mobile is-offset-0-tablet is-6-tablet is-6-desktop column">
-                        <script src="https://www.theticketfairy.com/resources/js/widget.js?50"></script>
-                        <div id="ttf-container" style="width: 100%"></div>
-                        <script>
-                            var widget = new TTFWidget(
-                                {
-                                    event : 'campsunnyroad2020',
-                                    compact : true
-                                }
-                            );
-                        </script>
+                         <div id="eventbrite-widget-container-89294978685"></div>
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                                <script type="text/javascript">
+                                    var exampleCallback = function() {
+                                        console.log('Order complete!');
+                                    };
+
+                                    window.EBWidgets.createWidget({
+                                        // Required
+                                        widgetType: 'checkout',
+                                        eventId: '89294978685',
+                                        iframeContainerId: 'eventbrite-widget-container-89294978685',
+
+                                        // Optional
+                                        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                                    });
+                                </script>
                     </div>
           </div>
         </div>
