@@ -275,7 +275,7 @@ embed,
 iframe,
 object,
 video {
-  height: auto;
+  height: 100%;
   max-width: 100%; }
 
 audio {
@@ -7124,6 +7124,9 @@ body {
 
 .passes p {
   margin-bottom: 20px; }
+
+.passes iframe{
+  height: 100% !important}
 
 .partners li img {
   max-width: 60px; }
