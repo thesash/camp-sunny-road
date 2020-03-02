@@ -3,7 +3,6 @@ partners:
   - logo: /img/partners/golden-road.png
   - logo: /img/partners/bon-and-viv.jpg
   - logo: /img/bos_logo_full_colour.png
-  - logo: /img/partners/babe-rose.png
   - logo: /img/partners/gts.png
   - logo: /img/partners/kyla.png
   - logo: /img/partners/foursigmatic.png
@@ -15,6 +14,5 @@ partners:
   - logo: /img/partners/beyond-meat.png
   - logo: /img/morning.png
   - logo: /img/gypsy.png
-  - logo: /img/high-brew.png
 ---
 
