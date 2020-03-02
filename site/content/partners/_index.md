@@ -1,7 +1,5 @@
 ---
 partners:
-  - logo: /img/partners/golden-road.png
-  - logo: /img/partners/bon-and-viv.jpg
   - logo: /img/bos_logo_full_colour.png
   - logo: /img/partners/gts.png
   - logo: /img/partners/kyla.png
