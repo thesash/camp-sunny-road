@@ -1,9 +1,9 @@
 ---
 heading: Festival Passes
 subhead: 'All-inclusive 3-day festival passes include:'
-apply_headline: Need the password?
-apply_text: "Take a second to\_complete our brief camper application and we'll be in touch."
-apply_button: Request Password
+apply_headline: Please register...
+apply_text: "Take a second to\_complete our brief camper registration form."
+apply_button: Registration
 features:
   - name: Lodging in newly-built bunks with comfortable beds and in-bunk bathrooms.
   - name: All activities and nightlife.
