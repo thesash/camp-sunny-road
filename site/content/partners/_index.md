@@ -10,6 +10,6 @@ partners:
   - logo: /img/morning.png
   - logo: /img/partners/gts.png
   - logo: /img/partners/foursigmatic.png
-  - logo: /img/bos_logo_full_colour.png
+  - logo: /img/bosicetealogo.jpg
 ---
 
