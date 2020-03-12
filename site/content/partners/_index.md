@@ -1,6 +1,7 @@
 ---
 partners:
   - logo: /img/dulce.jpeg
+  - logo: /img/78049272_816273895487121_2656300851529777152_o.png
   - logo: /img/ob_bt_logo_blk.png
   - logo: /img/partners/cayman-jack.png
   - logo: /img/amw_bourbon_black-1-1-.jpg
