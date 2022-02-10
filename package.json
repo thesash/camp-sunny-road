@@ -57,7 +57,7 @@
     "gulp-inject": "^5.0.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.11",
     "photoswipe": "^4.1.3",
     "svg-sprite-loader": "^3.0.0"
